@@ -1,5 +1,5 @@
 {
-	"name": "dmitrirussu/php-sepa-xml-generator",
+	"name": "tms/php-sepa-xml-generator",
 	"version": "1.0.8",
 	"type": "library",
 	"description": "Creates an XML file for a Single Euro Payments Area (SEPA) Direct Debit Payment.",
