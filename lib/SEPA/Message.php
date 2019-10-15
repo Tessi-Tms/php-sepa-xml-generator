@@ -57,8 +57,12 @@ class Message extends XMLGenerator implements MessageInterface {
 				$documentMessage = "<CstmrCdtTrfInitn></CstmrCdtTrfInitn>";
 				break;
 			}
-			default: {
+			case self::PAIN_008_001_02: {
 				$documentMessage = "<CstmrDrctDbtInitn></CstmrDrctDbtInitn>";
+				break;
+			}
+			default: {
+				$documentMessage = "<CstmrCdtTrfInitn></CstmrCdtTrfInitn>";
 				break;
 			}
 		}
